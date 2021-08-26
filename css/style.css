@@ -1,10 +1,22 @@
 .bg-gradient {
-    background: linear-gradient(90.01deg, #F7F7F7 47%, rgba(247, 247, 247, 0) 100.82%);
+    background: linear-gradient(90.01deg, #F7F7F7 37%, rgba(247, 247, 247, 0) 160.82%);
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .bg-gradient {
+        background: linear-gradient(90.01deg, #F7F7F7 20%, rgba(247, 247, 247, 0) 192.82%);
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-gradient {
+        background: linear-gradient(90.01deg, #F7F7F7 0, rgba(247, 247, 247, 0) 324.82%);
+    }
 }
 
 .img-style {
