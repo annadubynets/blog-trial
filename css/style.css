@@ -15,7 +15,7 @@
 
 @media (max-width: 991px) {
     .bg-gradient {
-        background: linear-gradient(181deg, #F7F7F7 60.88%, rgba(247, 247, 247, 0) 115.73%);
+        background: linear-gradient(181deg, #F7F7F7 60.88%, rgba(247, 247, 247, 0) 140%);
     }
 }
 
@@ -25,6 +25,7 @@
     top: 1px;
     max-width: 100%;
     height: calc(100% - 2px);
+    object-fit: cover;
 }
 
 .mt-60px {
@@ -49,6 +50,11 @@
 
 .pb-15px {
     padding-bottom: 15px;
+}
+
+.px-20px {
+   padding-left: 20px; 
+   padding-right: 20px;
 }
 
 .fw-bold {
